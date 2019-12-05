@@ -23,17 +23,17 @@ export const defaultTableStylesSpecs: TableStyleSpecs = {
   cellPaddingEm: 0.25,
   borderWidthPx: 0.25,
   linkColor: '#3498DB',
-  fontFamily: 'sans-serif',
-  thBorderColor : '#3f5c7a',
-  tdBorderColor : '#b5b5b5',
-  thOddBackground : '#253546',
-  thOddColor : '#FFFFFF',
-  thEvenBackground: '#253546',
-  thEvenColor: '#FFFFFF',
-  trOddBackground : '#e2e2e2',
-  trOddColor : '#333333',
-  trEvenBackground : '#FFFFFF',
-  trEvenColor : '#333333'
+  fontFamily: 'Helvetica',
+  thBorderColor : '#2c2c2c',
+  tdBorderColor : '#2c2c2c',
+  thOddBackground : '#ffffff',
+  thOddColor : '#000',
+  thEvenBackground: '#ffffff',
+  thEvenColor: '#000',
+  trOddBackground : '#ffffff',
+  trOddColor : '#000',
+  trEvenBackground : '#ffffff',
+  trEvenColor : '#000'
 }
 
 export default function cssRulesFromSpecs(specs: TableStyleSpecs = defaultTableStylesSpecs) {
